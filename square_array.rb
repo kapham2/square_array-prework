@@ -3,6 +3,6 @@ def square_array(array)
   index = 1
   squared_array = []
   array.each do |num|
-    squared_array.push(num ** 2)
+    squared_array.push(num**2)
     index += 1
 end
